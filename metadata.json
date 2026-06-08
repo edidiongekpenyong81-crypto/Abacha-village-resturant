@@ -1,0 +1,6 @@
+{
+  "name": "Abacha Village Restaurant",
+  "description": "Premium authentic Igbo-style Abacha food delivery and event catering in Abuja.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

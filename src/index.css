@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Lato:wght@300;400;700&family=Montserrat:wght@200;300;400;700&family=Playfair+Display:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-gold: #D4AF37;
+  --color-green: #2D6A2D;
+  --color-red: #C0392B;
+  --color-cream: #E5E5E5;
+
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Lato", sans-serif;
+  --font-display: "Montserrat", sans-serif;
+  --font-script: "Dancing Script", cursive;
+}
+
+/* Custom fade declarations for conditional views */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
